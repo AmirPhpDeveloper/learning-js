@@ -1,6 +1,6 @@
 // document
-function sayHello() {
-  let el = document.querySelector("#welcome");
-  el.style.color = "green";
-  el.textContent = "welcome to my repo";
-}
+// event Listeners
+const el = document.querySelector("#welcome");
+el.addEventListener("click", function () {
+  this.classList.add("myClass");
+});
