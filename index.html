@@ -1,36 +1,40 @@
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Counter - JavaScript.ir</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;800&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <div class="counter">
-        <h1 class="counter_title">Madaeny Counter</h1>
-        <span class="counter_value">0</span>
-        <button class="counter_reset-button ">
-            <i class="fas fa-sync-alt counter_reset-icon"></i>
+      <h1 class="counter_title">Mahmoodi Counter</h1>
+      <span class="counter_value">0</span>
+      <button class="counter_reset-button">
+        <i class="fas fa-sync-alt counter_reset-icon"></i>
+      </button>
+      <div class="counter_buttons">
+        <button class="counter_button counter_button--decrease">
+          <i class="fas fa-minus counter_icon counter_icon--minus"></i>
         </button>
-        <div class="counter_buttons">
-            <button class="counter_button counter_button--decrease">
-                <i class="fas fa-minus counter_icon counter_icon--minus"></i>
-            </button>
-            <button class="counter_button counter_button--increase">
-                <i class="fas fa-plus counter_icon counter_icon--plus"></i>
-            </button>
-        </div>
+        <button class="counter_button counter_button--increase">
+          <i class="fas fa-plus counter_icon counter_icon--plus"></i>
+        </button>
+      </div>
     </div>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
