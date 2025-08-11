@@ -33,3 +33,10 @@ function resetValue() {
 counterButtonIncEl.addEventListener("click", ValueInc);
 counterButtonDecEl.addEventListener("click", ValueDec);
 counterReseetBtnEl.addEventListener("click", resetValue);
+
+// keyboard shortcuts
+document.addEventListener("keydown", (e) => {
+  if (e.key === "ArrowUp" || e.key === "+") ValueInc();
+  if (e.key === "ArrowDown" || e.key === "-") ValueDec();
+  if (e.key.toLowerCase() === "r") resetValue();
+});
