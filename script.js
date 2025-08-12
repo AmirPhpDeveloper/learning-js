@@ -1,42 +1,67 @@
 // Elements
-const counterVlueEl = document.querySelector(".counter_value");
+const counterValueEl = document.querySelector(".counter_value");
 const counterButtonDecEl = document.querySelector(".counter_button--decrease");
 const counterButtonIncEl = document.querySelector(".counter_button--increase");
-const counterReseetBtnEl = document.querySelector(".counter_reset-button");
+const counterResetBtnEl = document.querySelector(".counter_reset-button");
+const counterTitleEl = document.querySelector(".counter_title");
+const counterEl = document.querySelector(".counter");
 
-// Get the counter value from localStorage or default to 0 if not found
-let counterValue = parseInt(localStorage.getItem("counterValue")) || 0;
-counterVlueEl.innerHTML = counterValue;
+// Constants
+const MIN_VALUE = 0;
+const MAX_VALUE = 5;
 
-// functions
+// State
+let counterValue = +localStorage.getItem("counterValue") || 0;
+counterValueEl.textContent = counterValue;
+
+// Helpers
 function updateValue(newValue) {
   counterValue = newValue;
-  counterVlueEl.innerHTML = counterValue;
+  counterValueEl.textContent = counterValue;
   localStorage.setItem("counterValue", counterValue);
 }
 
-function ValueInc() {
-  updateValue(counterValue + 1);
+function setNormalMode() {
+  counterEl.classList.remove("counter_limit");
+  counterTitleEl.textContent = "Mahmoodi Counter";
 }
-function ValueDec() {
-  if (counterValue != 0) {
-    updateValue(counterValue - 1);
+
+function setLimitMode(message) {
+  counterEl.classList.add("counter_limit");
+  counterTitleEl.textContent = message;
+}
+
+// Event Handlers
+function valueInc() {
+  if (counterValue < MAX_VALUE) {
+    updateValue(counterValue + 1);
+    setNormalMode();
   } else {
-    alert("We cannot count negative numbers.");
+    setLimitMode(`Buy Pro! Count > ${MAX_VALUE}`);
   }
 }
+
+function valueDec() {
+  if (counterValue > MIN_VALUE) {
+    updateValue(counterValue - 1);
+    setNormalMode();
+  } else {
+    setLimitMode(`Buy Pro! Count < ${MIN_VALUE}`);
+  }
+}
+
 function resetValue() {
+  setNormalMode();
   updateValue(0);
 }
 
-// Listeners
-counterButtonIncEl.addEventListener("click", ValueInc);
-counterButtonDecEl.addEventListener("click", ValueDec);
-counterReseetBtnEl.addEventListener("click", resetValue);
+// Event Listeners
+counterButtonIncEl.addEventListener("click", valueInc);
+counterButtonDecEl.addEventListener("click", valueDec);
+counterResetBtnEl.addEventListener("click", resetValue);
 
-// keyboard shortcuts
 document.addEventListener("keydown", (e) => {
-  if (e.key === "ArrowUp" || e.key === "+") ValueInc();
-  if (e.key === "ArrowDown" || e.key === "-") ValueDec();
+  if (e.key === "ArrowUp" || e.key === "+") valueInc();
+  if (e.key === "ArrowDown" || e.key === "-") valueDec();
   if (e.key.toLowerCase() === "r") resetValue();
 });
