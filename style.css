@@ -94,6 +94,10 @@ align-items: center;
     margin-bottom: 10px;
 }
 
+.stat__number_limit{
+    color: red; 
+}
+
 .second-heading{
     font-size: 14px;
     text-transform: uppercase;
