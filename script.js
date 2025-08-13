@@ -1,3 +1,6 @@
+// imports
+import { limit, blockJs } from "./helpers.js";
+
 // Elements
 const textareaEl = document.querySelector(".textarea");
 const wordsNumberEl = document.querySelector(".stat__number--words");
@@ -6,42 +9,26 @@ const twitterNumberEl = document.querySelector(".stat__number--twitter");
 const facebookNumberEl = document.querySelector(".stat__number--facebook");
 
 // Functions
+
 const countCharacters = () => {
-  let numberOfCharacters = textareaEl.value.length;
-  let numberOfWords = textareaEl.value.split(" ").length;
-  let numberOfTwitterLeft = 280 - textareaEl.value.length;
-  let numberOfacebookLeft = 2200 - textareaEl.value.length;
+  // variables
+  const value = textareaEl.value.trim();
+  const numberofCharacters = value.length;
+  let numberofWords = value === "" ? 0 : value.split(/\s+/).length;
+  let numberofTwitterLeft = 280 - value.length;
+  let numberofacebookLeft = 2200 - value.length;
+  // block the js code in input
+  blockJs(textareaEl);
+  // limit number for social
+  limit(numberofTwitterLeft, twitterNumberEl);
 
-  if (textareaEl.value.includes("<script>")) {
-    alert("you can'nt write script in input");
-    console.log(textareaEl.value.replace("<script>", " "));
-    textareaEl.value = textareaEl.value.replace("<script>", " ");
-  }
+  limit(numberofacebookLeft, facebookNumberEl);
 
-  if (textareaEl.value.length === 0) {
-    numberOfWords = 0;
-  }
-
-  if (numberOfTwitterLeft < 0) {
-    twitterNumberEl.classList.add("stat__number_limit");
-  } else {
-    {
-      twitterNumberEl.classList.remove("stat__number_limit");
-    }
-  }
-
-  if (numberOfacebookLeft < 0) {
-    facebookNumberEl.classList.add("stat__number_limit");
-  } else {
-    {
-      facebookNumberEl.classList.remove("stat__number_limit");
-    }
-  }
-
-  charactersNumberEl.textContent = numberOfCharacters;
-  wordsNumberEl.textContent = numberOfWords;
-  twitterNumberEl.textContent = numberOfTwitterLeft;
-  facebookNumberEl.textContent = numberOfacebookLeft;
+  // update Dom
+  charactersNumberEl.textContent = numberofCharacters;
+  wordsNumberEl.textContent = numberofWords;
+  twitterNumberEl.textContent = numberofTwitterLeft;
+  facebookNumberEl.textContent = numberofacebookLeft;
 };
 
 // Listeners
