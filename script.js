@@ -1,35 +1,49 @@
-// imports
-import { limit, blockJs } from "./helpers.js";
+// Advanced string analysis in JavaScript
 
-// Elements
-const textareaEl = document.querySelector(".textarea");
-const wordsNumberEl = document.querySelector(".stat__number--words");
-const charactersNumberEl = document.querySelector(".stat__number--characters");
-const twitterNumberEl = document.querySelector(".stat__number--twitter");
-const facebookNumberEl = document.querySelector(".stat__number--facebook");
+// Text / string
+const text = "AmirAliMahmoodi";
 
-// Functions
+// Length
+console.log(text.length);
+// Returns an integer
+// Example: 15
+// Used to get the number of characters in a string
 
-const countCharacters = () => {
-  // variables
-  const value = textareaEl.value.trim();
-  const numberofCharacters = value.length;
-  let numberofWords = value === "" ? 0 : value.split(/\s+/).length;
-  let numberofTwitterLeft = 280 - value.length;
-  let numberofacebookLeft = 2200 - value.length;
-  // block the js code in input
-  blockJs(textareaEl);
-  // limit number for social
-  limit(numberofTwitterLeft, twitterNumberEl);
+// includes()
+console.log(text.includes("A"));
+// Returns a boolean
+// true → the string contains "A"
+console.log(text.includes("AM"));
+// Returns false because it's case-sensitive
 
-  limit(numberofacebookLeft, facebookNumberEl);
+// toUpperCase()
+console.log(text.toUpperCase());
+// Returns "AMIRALIMAHMOODI"
+// Converts the string to uppercase
+// Don't forget the parentheses () — without them it won't work
 
-  // update Dom
-  charactersNumberEl.textContent = numberofCharacters;
-  wordsNumberEl.textContent = numberofWords;
-  twitterNumberEl.textContent = numberofTwitterLeft;
-  facebookNumberEl.textContent = numberofacebookLeft;
-};
+// toLowerCase()
+console.log(text.toLowerCase());
+// Returns "amiralimahmoodi"
+// Converts the string to lowercase
 
-// Listeners
-textareaEl.addEventListener("input", countCharacters);
+// trim()
+const textWithSpace = "      AmirAliMahmoodi      ";
+console.log(textWithSpace.trim());
+// Returns "AmirAliMahmoodi"
+// Removes whitespace from the beginning and end of the string
+
+// substring()
+console.log(text.substring(2, 7));
+// Returns "irAli"
+// Extracts a part of the string from index 2 to 6
+console.log(text.substring(2));
+// The second parameter is optional
+// Returns "irAliMahmoodi"
+
+// Method chaining
+// You can call multiple string methods in sequence
+console.log(text.toLowerCase().toUpperCase().trim().substring(1));
+// Returns "MIRALIMAHMOODI"
+
+console.log("Thanks for reading!");
