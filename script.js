@@ -1,14 +1,15 @@
-// Fetch and log the first 5 posts from the API
+// Fetch and  show titles in HTML
 const url = "https://jsonplaceholder.typicode.com/posts";
 
 fetch(url)
   .then(function (res) {
     return res.json();
   })
-  .then(function (data) {
-    for (let i = 0; i < 5; i++) {
-      console.log(data[i].title);
-    }
+  .then(function (datas) {
+    datas.forEach((data) => {
+      const el = `<li>${data.title}</li>`;
+      document.querySelector("#ul").insertAdjacentHTML("beforeend", el);
+    });
   })
   .catch((error) => {
     console.log(error);
