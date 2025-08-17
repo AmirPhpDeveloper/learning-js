@@ -1,5 +1,5 @@
 // Impports
-import { validation } from "./helpers.js";
+import { handleText, validation } from "./helpers.js";
 
 // Elements
 const textareaEl = document.querySelector(".form__textarea");
@@ -9,6 +9,7 @@ const feedBacksEl = document.querySelector(".feedbacks");
 
 // Variables
 const maxChar = 150;
+const hashtagRegex = /#\w+/;
 
 // Functions
 const inputHandler = () => {
@@ -20,29 +21,27 @@ const inputHandler = () => {
 const submitHandler = (event) => {
   event.preventDefault();
   const text = textareaEl.value;
-  if (!text.includes("#") || text.length < 5) {
+  if (!hashtagRegex.test(text) || text.length < 5) {
     validation(formEl, "form--invalid");
     textareaEl.focus();
     return;
   }
+
   validation(formEl, "form--valid");
-  const wordes = text.split(" ");
-  const hashtag = wordes.find((word) => word.includes("#"));
-  const company = hashtag.substring(1);
-  const badgeLetter = company.substring(0, 1);
-  const upvoteCounte = 0;
+  const props = handleText(text);
+  const upvoteCount = 0;
   const dayAgo = 0;
   const feedItem = `
     <li class="feedback">
             <button class="upvote">
                 <i class="fa-solid fa-caret-up upvote__icon"></i>
-                <span class="upvote__count">${upvoteCounte}</span>
+                <span class="upvote__count">${upvoteCount}</span>
             </button>
             <section class="feedback__badge">
-                <p class="feedback__letter">${badgeLetter}</p>
+                <p class="feedback__letter">${props.badgeLetter}</p>
             </section>
             <div class="feedback__content">
-                <p class="feedback__company">${company}</p>
+                <p class="feedback__company">${props.company}</p>
                 <p class="feedback__text">${text}</p>
             </div>
             <p class="feedback__date">${dayAgo}</p>
