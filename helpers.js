@@ -17,3 +17,34 @@ export const handleText = (text) => {
     badgeLetter: badgeLetter,
   };
 };
+export const getFeedbakcs = (url, listEl) => {
+  fetch(url)
+    .then((response) => {
+      return response.json();
+    })
+    .then((response) => {
+      const data = response.feedbacks;
+      listEl.innerHTML = "";
+      data.forEach((feedback) => {
+        const feedItem = `
+    <li class="feedback">
+            <button class="upvote">
+                <i class="fa-solid fa-caret-up upvote__icon"></i>
+                <span class="upvote__count">${feedback.upvoteCount}</span>
+            </button>
+            <section class="feedback__badge">
+                <p class="feedback__letter">${feedback.badgeLetter}</p>
+            </section>
+            <div class="feedback__content">
+                <p class="feedback__company">${feedback.company}</p>
+                <p class="feedback__text">${feedback.text}</p>
+            </div>
+            <p class="feedback__date">${
+              feedback.daysAgo === 0 ? "NEW" : feedback.daysAgo
+            }</p>
+        </li>
+    `;
+        listEl.insertAdjacentHTML("beforeend", feedItem);
+      });
+    });
+};

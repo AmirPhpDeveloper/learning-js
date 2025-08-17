@@ -1,17 +1,22 @@
 // Impports
-import { handleText, validation } from "./helpers.js";
+import { getFeedbakcs, handleText, validation } from "./helpers.js";
 
 // Elements
 const textareaEl = document.querySelector(".form__textarea");
 const counterEl = document.querySelector(".counter");
 const formEl = document.querySelector(".form");
 const feedBacksEl = document.querySelector(".feedbacks");
+const submitBtnEl = document.querySelector(".submit-btn");
 
 // Variables
 const maxChar = 150;
 const hashtagRegex = /#\w+/;
+const url = "https://bytegrad.com/course-assets/js/1/api/feedbacks";
 
 // Functions
+
+getFeedbakcs(url, feedBacksEl);
+
 const inputHandler = () => {
   const charTyped = textareaEl.value.length;
   const charLeft = maxChar - charTyped;
@@ -44,11 +49,13 @@ const submitHandler = (event) => {
                 <p class="feedback__company">${props.company}</p>
                 <p class="feedback__text">${text}</p>
             </div>
-            <p class="feedback__date">${dayAgo}</p>
+            <p class="feedback__date">${dayAgo === 0 ? "NEW" : dayAgo}</p>
         </li>
     `;
+
   feedBacksEl.insertAdjacentHTML("beforeend", feedItem);
   textareaEl.value = "";
+  submitBtnEl.blur();
   inputHandler();
 };
 
