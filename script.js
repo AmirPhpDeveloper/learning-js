@@ -1,5 +1,5 @@
 // Impports
-import { getFeedbakcs, handleText, validation } from "./helpers.js";
+import { createFeedBack, getFeedbacks, validation } from "./helpers.js";
 
 // Elements
 const textareaEl = document.querySelector(".form__textarea");
@@ -9,13 +9,12 @@ const feedBacksEl = document.querySelector(".feedbacks");
 const submitBtnEl = document.querySelector(".submit-btn");
 
 // Variables
+export const URL = "https://bytegrad.com/course-assets/js/1/api/feedbacks";
 const maxChar = 150;
 const hashtagRegex = /#\w+/;
-const url = "https://bytegrad.com/course-assets/js/1/api/feedbacks";
 
 // Functions
-
-getFeedbakcs(url, feedBacksEl);
+getFeedbacks(URL, feedBacksEl);
 
 const inputHandler = () => {
   const charTyped = textareaEl.value.length;
@@ -31,34 +30,17 @@ const submitHandler = (event) => {
     textareaEl.focus();
     return;
   }
-
   validation(formEl, "form--valid");
-  const props = handleText(text);
-  const upvoteCount = 0;
-  const dayAgo = 0;
-  const feedItem = `
-    <li class="feedback">
-            <button class="upvote">
-                <i class="fa-solid fa-caret-up upvote__icon"></i>
-                <span class="upvote__count">${upvoteCount}</span>
-            </button>
-            <section class="feedback__badge">
-                <p class="feedback__letter">${props.badgeLetter}</p>
-            </section>
-            <div class="feedback__content">
-                <p class="feedback__company">${props.company}</p>
-                <p class="feedback__text">${text}</p>
-            </div>
-            <p class="feedback__date">${dayAgo === 0 ? "NEW" : dayAgo}</p>
-        </li>
-    `;
 
-  feedBacksEl.insertAdjacentHTML("beforeend", feedItem);
-  textareaEl.value = "";
-  submitBtnEl.blur();
-  inputHandler();
+  const feedBacksElements = {
+    feedBacksEl: feedBacksEl,
+    textareaEl: textareaEl,
+    submitBtnEl: submitBtnEl,
+  };
+
+  createFeedBack(text, feedBacksElements, URL);
 };
-
+inputHandler();
 // Listeners
 textareaEl.addEventListener("input", inputHandler);
 formEl.addEventListener("submit", submitHandler);
