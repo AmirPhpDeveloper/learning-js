@@ -16,7 +16,7 @@ export const createFeedEL = (props) => {
               </section>
               <div class="feedback__content">
                   <p class="feedback__company">${props.company}</p>
-                  <p class="feedback__text">${props.text}</p>
+                  <p class="feedback__text">${props.text}</p> 
               </div>
               <p class="feedback__date">${
                 props.daysAgo === 0 ? "NEW" : `${props.daysAgo}d`
