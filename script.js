@@ -62,15 +62,31 @@ const hashtagClickHandler = (event) => {
       .toLowerCase()
       .trim();
 
+    let hasResults = false; // 👈 این اضافه شد
+
     feedBacks.forEach((feedBack) => {
       const companyFromFeedback = feedBack.company.toLowerCase().trim();
       if (companyFromFeedback === componyFromHashtag) {
         const feedBackItem = createFeedEL(feedBack);
-        const spinner = feedBacksEl.querySelector(".spinner");
-        if (spinner) spinner.remove();
         feedBacksEl.insertAdjacentHTML("beforeend", feedBackItem);
+        hasResults = true; // 👈 چیزی پیدا شد
       }
     });
+
+    // spinner رو فقط آخر پاک کن
+    const spinner = feedBacksEl.querySelector(".spinner");
+    if (spinner) spinner.remove();
+
+    // 👇 اگه هیچ آیتمی نبود
+    if (!hasResults) {
+      feedBacksEl.insertAdjacentHTML(
+        "beforeend",
+        `<div class="not-found">
+  <img src="https://cdnl.iconscout.com/lottie/premium/thumb/404-error-page-animation-gif-download-3299952.gif" alt="Not Found" />
+  <p>No feedbacks found for "${componyFromHashtag}"</p>
+</div>`
+      );
+    }
   });
 };
 

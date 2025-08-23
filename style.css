@@ -573,6 +573,50 @@ button {
     animation: spinner 1s infinite linear;
 }
 
+.feedbacks {
+  position: relative;
+  min-height: 80vh; /* ارتفاع حداقلی برای محتوا */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.not-found::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('https://cdnl.iconscout.com/lottie/premium/thumb/404-error-page-animation-gif-download-3299952.gif') no-repeat center center;
+  background-size: cover;
+  filter: brightness(0.5); /* کمی تاریک برای متن */
+  z-index: -1;
+}
+
+.not-found img {
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 1rem;
+  z-index: 2;
+}
+
+
 
 /* MEDIA QUERIES */
 @media (max-height: 925px) {
