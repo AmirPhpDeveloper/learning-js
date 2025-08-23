@@ -43,20 +43,22 @@ export const handleText = (text) => {
   };
 };
 export const getFeedbacks = (url, listEl) => {
-  fetch(url)
-    .then((response) => {
-      return response.json();
-    })
-    .then((response) => {
-      const data = response.feedbacks;
-      listEl.innerHTML = "";
-      data.forEach((feedback) => {
-        const feedItem = createFeedEL(feedback);
-        listEl.insertAdjacentHTML("beforeend", feedItem);
-      });
-    })
+  getData(url).then((data) => {
+    listEl.innerHTML = "";
+    data.forEach((feedback) => {
+      const feedItem = createFeedEL(feedback);
+      listEl.insertAdjacentHTML("beforeend", feedItem);
+    });
+  });
+};
+
+export const getData = (url) => {
+  return fetch(url)
+    .then((response) => response.json())
+    .then((json) => json.feedbacks)
     .catch((error) => {
-      console.log(`error in fecthing data from API : ${error} `);
+      console.log(`error in fetching data from API : ${error}`);
+      return [];
     });
 };
 
@@ -86,4 +88,17 @@ export const createFeedBack = (text, elements, URL) => {
     .catch((error) => {
       console.log("Something went wrong in submit" + error);
     });
+};
+
+export const clickHandler = (event) => {
+  const clickedEl = event.target;
+  const upvoteEl = clickedEl.className.includes("upvote");
+  if (upvoteEl) {
+    const upvoteBtnEl = clickedEl.closest(".upvote");
+    let upvoteCount = upvoteBtnEl.querySelector(".upvote__count");
+    upvoteCount.textContent++;
+    upvoteBtnEl.disabled = true;
+    return;
+  }
+  clickedEl.closest(".feedback").classList.toggle("feedback--expand");
 };
