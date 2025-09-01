@@ -25,3 +25,75 @@ const sortingBtnRelevantEl = document.querySelector(
 const sortingBtnRecentEl = document.querySelector(".sorting__button--recent");
 const spinnerSearchEl = document.querySelector(".spinner--search");
 const spinnerJobDetailsEl = document.querySelector(".spinner--job-details");
+
+// -- Search Component --
+const submitHandler = (event) => {
+  event.preventDefault();
+  searchInputEl.blur();
+  const searchText = searchInputEl.value;
+  const forbiddenPattern = /[1-9]/;
+  const patternMatch = forbiddenPattern.test(searchText);
+  if (patternMatch) {
+    errorTextEl.textContent = "you cant search number!!!";
+    errorEl.classList.add("error--visible");
+    setTimeout(() => {
+      errorEl.classList.remove("error--visible");
+    }, 3000);
+    return;
+  }
+  spinnerSearchEl.classList.add("spinner--visible");
+  fetch(`https://bytegrad.com/course-assets/js/2/api/jobs?search=${searchText}`)
+    .then((res) => {
+      if (!res.ok) {
+        errorTextEl.textContent = "something went wrong!!!";
+        errorEl.classList.add("error--visible");
+        setTimeout(() => {
+          errorEl.classList.remove("error--visible");
+        }, 3000);
+      }
+      return res.json();
+    })
+    .then((data) => {
+      const { jobItems } = data;
+      console.log(jobItems);
+
+      spinnerSearchEl.classList.remove("spinner--visible");
+
+      jobItems.forEach((job) => {
+        const jobItem = `
+            <li class="job-item">
+                        <a class="job-item__link" href="${job.id}">
+                            <div class="job-item__badge">${
+                              job.badgeLetters
+                            }</div>
+                            <div class="job-item__middle">
+                                <h3 class="third-heading">${job.title}</h3>
+                                <p class="job-item__company">${job.compony}</p>
+                                <div class="job-item__extras">
+                                    <p class="job-item__extra"><i class="fa-solid fa-clock job-item__extra-icon"></i> ${
+                                      job.duration
+                                    }</p>
+                                    <p class="job-item__extra"><i class="fa-solid fa-money-bill job-item__extra-icon"></i> ${
+                                      job.salary
+                                    }</p>
+                                    <p class="job-item__extra"><i class="fa-solid fa-location-dot job-item__extra-icon"></i> ${
+                                      job.location
+                                    }</p>
+                                </div>
+                            </div>
+                            <div class="job-item__right">
+                                <i class="fa-solid fa-bookmark job-item__bookmark-icon"></i>
+                                <time class="job-item__time">${
+                                  job.daysAgo === 0 ? "NEW" : job.daysAgo
+                                }d</time>
+                            </div>
+                        </a>
+                    </li>
+            `;
+        jobListSearchEl.insertAdjacentHTML("beforeend", jobItem);
+      });
+    })
+    .catch((err) => console.log(err));
+};
+
+searchFormEl.addEventListener("submit", submitHandler);

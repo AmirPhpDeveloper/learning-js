@@ -1,0 +1,1418 @@
+{
+  "public": true,
+  "sorted": true,
+  "jobItems": [
+    {
+      "id": 435243523542435,
+      "description": "As a full-stack developer, you will be responsible for designing, developing and deploying full-stack solutions in support of LakeOperations' core business.",
+      "qualifications": [
+        "JavaScript",
+        "CSS",
+        "React",
+        "HTML",
+        "Node.js",
+        "Responsive web design",
+        "MongoDB/NoSQL"
+      ],
+      "reviews": [
+        "Best place I've ever worked. I learned a lot.",
+        "I liked that we could work remotely.",
+        "Very nice benefits for online learning.",
+        "Great coworkers, opportunities."
+      ],
+      "title": "Full-Stack Developer",
+      "badgeLetters": "LO",
+      "company": "LakeOperations",
+      "duration": "Full-Time",
+      "salary": "$80,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 1,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionallakeoperationswebsite.com"
+    },
+    {
+      "id": 23542345745674570,
+      "description": "Under the direction of the Eng. Manager, the front-end developer will maintain web pages and web apps for the family of ComputerHaver websites.",
+      "qualifications": [
+        "JavaScript",
+        "CSS",
+        "React",
+        "HTML",
+        "Optional: Angular 2+",
+        "Optional: Vue.js"
+      ],
+      "reviews": [
+        "Remote work here is possible.",
+        "Fantastic place to work. Enjoyed it.",
+        "Great benefits for learning, also online.",
+        "Good opportunities for your career."
+      ],
+      "title": "Front-End Developer",
+      "badgeLetters": "CH",
+      "company": "ComputerHaver",
+      "duration": "Full-Time",
+      "salary": "$85,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 1,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalcomputerhaverwebsite.com",
+      "badgeBgColor": "#3d87f1"
+    },
+    {
+      "id": 68968756834563464,
+      "description": "We're always looking for top talent in software development so we want to learn about why you feel that's you, what drives you, where you see your career headed, and why you think InsureNow could be the right next move for you.",
+      "qualifications": [
+        "JavaScript",
+        "CSS",
+        "React",
+        "HTML",
+        "NoSQL",
+        "Optional: SQL",
+        "Optional: Python"
+      ],
+      "reviews": [
+        "Nice place to learn the industry.",
+        "Knowledgeable coworkers.",
+        "Fast-paced but doable.",
+        "Good work-from-home policy."
+      ],
+      "title": "Software Developer",
+      "badgeLetters": "CS",
+      "company": "CapSoft",
+      "duration": "Full-Time",
+      "salary": "$100,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 1,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalcapsoftwebsite.com"
+    },
+    {
+      "id": 898679876973546,
+      "description": "We are looking for an entry-level software developer with enthusiasm, broad exposure to different types of development tasks. This position will support a wide array of services and features.",
+      "qualifications": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React/Angular/Vue",
+        "Node.js",
+        "MongoDB/NoSQL",
+        "Optional: SQL"
+      ],
+      "reviews": [
+        "Good place to start your developer career.",
+        "Decent benefits and pay.",
+        "Growing company with good opportunities.",
+        "Good place to work."
+      ],
+      "title": "Junior Software Developer",
+      "badgeLetters": "RR",
+      "company": "Rey and Rey",
+      "duration": "Full-Time",
+      "salary": "$95,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 2,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalreyandreywebsite.com"
+    },
+    {
+      "id": 32412342141234,
+      "description": "In this role, you will utilize the NewOperator platform to provide support to consulting and technical teams by contributing to various stages of the software development life cycle.",
+      "qualifications": [
+        "HTML",
+        "Ability to learn quickly",
+        "CSS",
+        "JavaScript",
+        "React",
+        "MongoDB/NoSQL"
+      ],
+      "reviews": [
+        "Life-changing opportunity to work here!",
+        "Stable job with growth.",
+        "Nice amenities and training culture.",
+        "Good work environment."
+      ],
+      "title": "JavaScript Developer",
+      "badgeLetters": "NO",
+      "company": "NewOperator",
+      "duration": "Full-Time",
+      "salary": "$75,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 2,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalnewoperatorwebsite.com"
+    },
+    {
+      "id": 345634575475476,
+      "description": "Leverage a deep understanding of software development to develop solutions. Develop backend and frontend solutions to increase security and incorporate new features.",
+      "qualifications": [
+        "JavaScript",
+        "Sass/SCSS",
+        "React",
+        "HTML",
+        "Node.js",
+        "Responsive web design",
+        "Webpack"
+      ],
+      "reviews": [
+        "They really care about employees.",
+        "Great workfloor culture.",
+        "Nice work-life balance.",
+        "Great place to work!"
+      ],
+      "title": "Node.js Software Engineer",
+      "badgeLetters": "PT",
+      "company": "PredICT",
+      "duration": "Full-Time",
+      "salary": "$100,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 4,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalpredICTwebsite.com"
+    },
+    {
+      "id": 990796582354534,
+      "description": "We are looking for a talented Junior Full Stack Developer to add to our team! This is a great opportunity to sharpen your front and back-end development skills in a fun and innovative environment.",
+      "qualifications": [
+        "React",
+        "Bootstrap",
+        "JavaScript",
+        "CSS",
+        "Node/NPM",
+        "APIs (Rest, GraphQL)"
+      ],
+      "reviews": [
+        "Very nice growth possibilities.",
+        "Good compensation packages.",
+        "They allow work from home.",
+        "Good company & good training."
+      ],
+      "title": "Assistant Web Developer",
+      "badgeLetters": "PS",
+      "company": "Pear & So",
+      "duration": "Full-Time",
+      "salary": "$105,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 3,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalpear&soswebsite.com"
+    },
+    {
+      "id": 634634363464563500,
+      "description": "The Full Stack Developer will lead the development of major features and implementations, including helping to design the architecture for those features.",
+      "qualifications": [
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "CSS",
+        "Optional: Microservices",
+        "Optional: Docker"
+      ],
+      "reviews": [
+        "Decent pay relative to market rate.",
+        "Great place for new engineer.",
+        "Overall very good.",
+        "I like my team."
+      ],
+      "title": "Senior Web Developer",
+      "badgeLetters": "VV",
+      "company": "Veri Veri",
+      "duration": "Full-Time",
+      "salary": "$80,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 4,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalveriveriwebsite.com"
+    },
+    {
+      "id": 123445787932452350,
+      "description": "Drive the full stack development of our site: front-end, website infrastructure, data engineering, API integrations, logging, and more.",
+      "qualifications": [
+        "HTML5",
+        "Git",
+        "CSS3",
+        "jQuery",
+        "Optional: NoSQL/MongoDB"
+      ],
+      "reviews": [
+        "Reputable company with good benefits.",
+        "Good experience so far.",
+        "Friendly work environment.",
+        "Global work culture."
+      ],
+      "title": "Front End/UI Developer",
+      "badgeLetters": "PT",
+      "company": "PluralTech",
+      "duration": "Full-Time",
+      "salary": "$90,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 4,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalpluraltechwebsite.com"
+    },
+    {
+      "id": 96069683624625420,
+      "description": "As one of our Developers, you will be working as part of our cross-functional teams who support the development within our core business.",
+      "qualifications": [
+        "Vue.js",
+        "React",
+        "JavaScript",
+        "Postgres",
+        "TypeScript",
+        "Git/GitHub"
+      ],
+      "reviews": [
+        "Great place to develop skillset.",
+        "They have a great track for starters.",
+        "Company with integrity.",
+        "They invest in employees."
+      ],
+      "title": "Front End Web Developer",
+      "badgeLetters": "PC",
+      "company": "Piper Corporate",
+      "duration": "Full-Time",
+      "salary": "$120,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 5,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalpipercorporatewebsite.com"
+    },
+    {
+      "id": 3.545433454546788e+19,
+      "description": "Our team of technology consultants help organizations overcome business pain-points and deliver positive, award-winning results to enterprise clients across industries like energy, financial services, and more.",
+      "qualifications": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "jQuery",
+        "REST API",
+        "Optional: AWS/Azure/GC"
+      ],
+      "reviews": [
+        "Good learning experience.",
+        "Great entry into tech sector.",
+        "Chill work environment.",
+        "Low-stress work place."
+      ],
+      "title": "Full-Stack Developer",
+      "badgeLetters": "AW",
+      "company": "AIWare",
+      "duration": "Full-Time",
+      "salary": "$85,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 3,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalaiwarewebsite.com"
+    },
+    {
+      "id": 45665689000765350,
+      "description": "As a developer at KSMA, you will be responsible for designing, developing and deploying full-stack solutions in support of KSMA's core business.",
+      "qualifications": [
+        "HTML",
+        "CSS",
+        "React",
+        "MongoDB/NoSQL",
+        "Node",
+        "Optional: Angular/Vue"
+      ],
+      "reviews": [
+        "Flexible work policies.",
+        "Campus with canteens is great.",
+        "Productive but also flexible.",
+        "I like the culture here."
+      ],
+      "title": "Front End Developer",
+      "badgeLetters": "KS",
+      "company": "KSMA",
+      "duration": "Full-Time",
+      "salary": "$90,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 1,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalksmawebsite.com"
+    },
+    {
+      "id": 1123412341634563,
+      "description": "Join us as we pursue our disruptive new vision to make machine data accessible, usable, and valuable to everyone.",
+      "qualifications": [
+        "Node",
+        "CSS",
+        "JavaScript",
+        "React",
+        "HTML",
+        "MongoDB/NoSQL",
+        "Responsive web design"
+      ],
+      "reviews": [
+        "Nice building and food also.",
+        "Great working experience.",
+        "I liked the manager and team.",
+        "Interesting projects for starters."
+      ],
+      "title": "Front End React Engineer",
+      "badgeLetters": "9T",
+      "company": "9th Tech",
+      "duration": "Full-Time",
+      "salary": "$105,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 2,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictional9thtechwebsite.com"
+    },
+    {
+      "id": 5553645680007895,
+      "description": "Are you passionate about building software that makes a difference? Do you enjoy collaboration with a team of fun and smart creative people?",
+      "qualifications": [
+        "JavaScript",
+        "CSS",
+        "React",
+        "HTML",
+        "Node.js",
+        "Optional: TypeScript"
+      ],
+      "reviews": [
+        "I had a great internship.",
+        "Good stepping stone.",
+        "Well-run and organized company.",
+        "Great coworkers & opportunities."
+      ],
+      "title": "Frontend Developer - React",
+      "badgeLetters": "AS",
+      "company": "AT Security",
+      "duration": "Full-Time",
+      "salary": "$85,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 4,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalatsecuritywebsite.com"
+    },
+    {
+      "id": 11312545454587,
+      "description": "As a member of the team with a security focus, you will help define the future of our software by designing, creating, testing, and maintaining products that directly support security analysts all across the world.",
+      "qualifications": [
+        "React",
+        "React Native",
+        "Redux",
+        "Node",
+        "GraphQL",
+        "GitHub",
+        "VS Code"
+      ],
+      "reviews": [
+        "Good support for employees.",
+        "Decent pay and career progression.",
+        "Wonderful place to work.",
+        "Interesting sites to work on."
+      ],
+      "title": "Junior Software Developer",
+      "badgeLetters": "AT",
+      "company": "Aspen Tech",
+      "duration": "Full-Time",
+      "salary": "$90,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 4,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalaspentechwebsite.com"
+    },
+    {
+      "id": 77667576576677,
+      "description": "We encourage our engineers to think like an owner: to continue to act small as we grow. Every team defines their own roadmaps, and uses the programming languages and technologies that suit them best.",
+      "qualifications": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "Optional: GraphQL"
+      ],
+      "reviews": [
+        "Nice company to start and learn from.",
+        "Good pay structure.",
+        "Nice, peaceful work environment.",
+        "High job security."
+      ],
+      "title": "Full Stack Engineer",
+      "badgeLetters": "HS",
+      "company": "HO Software",
+      "duration": "Full-Time",
+      "salary": "$100,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 1,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalhosoftwarewebsite.com"
+    },
+    {
+      "id": 77767676356565660,
+      "description": "You will thrive in a complex and collaborative environment where you take action and ownership to solve problems and lead change.",
+      "qualifications": [
+        "React",
+        "Node.js",
+        "Express",
+        "AWS",
+        "Optional: AWS/Azure"
+      ],
+      "reviews": [
+        "Good company, but depends on manager.",
+        "Guidance for starters.",
+        "Fun place to work.",
+        "Nice projects allocated."
+      ],
+      "title": "Full-Stack Web Engineer",
+      "badgeLetters": "VT",
+      "company": "Vision Tower",
+      "duration": "Full-Time",
+      "salary": "$95,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 2,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalvisiontowerwebsite.com"
+    },
+    {
+      "id": 9967898989857690,
+      "description": "We offer a flexible and positive work environment so you have the autonomy to build amazing software for our customers and add to our team of industry leading visionaries.",
+      "qualifications": [
+        "JavaScript",
+        "React",
+        "NodeJS",
+        "REST and/or GraphQL",
+        "Optional: Angular"
+      ],
+      "reviews": [
+        "I can't think of negatives.",
+        "Perfect for gaining experience.",
+        "Many projects to choose from.",
+        "A decent place for starters."
+      ],
+      "title": "Full-Stack JavaScript",
+      "badgeLetters": "TP",
+      "company": "The Technology Paper",
+      "duration": "Full-Time",
+      "salary": "$100,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 3,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalthetechnologypaperwebsite.com"
+    },
+    {
+      "id": 7.766762343452355e+18,
+      "description": "We value colleagues who enjoy learning and teaching, which creates our collaborative organization. You'll be mentored and supported.",
+      "qualifications": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "Git/GitHub",
+        "Next.js"
+      ],
+      "reviews": [
+        "Questions are answered quickly.",
+        "Good company direction.",
+        "It's OK, better for starters.",
+        "A career, not a job here."
+      ],
+      "title": "Front End Web Developer",
+      "badgeLetters": "TI",
+      "company": "Tech Intelligence",
+      "duration": "Full-Time",
+      "salary": "$80,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 2,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionaltechintelligencewebsite.com"
+    },
+    {
+      "id": 444352435253478800,
+      "description": "Ability to quickly pivot as demands arise are supported by a foundation of emphasis on Agile team collaboration that are key to delivering world class solutions.",
+      "qualifications": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Ruby on Rails",
+        "Git/GitHub",
+        "Heroku"
+      ],
+      "reviews": [
+        "Great pay and work-life balance.",
+        "Good for fresh start.",
+        "Perfect for career progression.",
+        "Lots of training opportunities."
+      ],
+      "title": "Back-End Developer",
+      "badgeLetters": "SE",
+      "company": "Sense Enterprises",
+      "duration": "Full-Time",
+      "salary": "$82,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 3,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalsenseenterpriseswebsite.com"
+    },
+    {
+      "id": 65436513221353250,
+      "description": "As a Front End Software Engineer, you will join a highly functioning team comprised of a combination of full time and part-time professionals across the globe.",
+      "qualifications": [
+        "JavaScript",
+        "CSS",
+        "React",
+        ".NET",
+        "HTML",
+        "Optional: SQL"
+      ],
+      "reviews": [
+        "Not bad for entry position.",
+        "Low employee turnover.",
+        "Fun workplace to be honest.",
+        "Job security & WFH!"
+      ],
+      "title": "Back End Web Developer",
+      "badgeLetters": "ES",
+      "company": "Epsilon Services",
+      "duration": "Full-Time",
+      "salary": "$97,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 5,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalepsilonserviceswebsite.com"
+    },
+    {
+      "id": 32545344324444230,
+      "description": "Whether we're supporting our customers' financial confidence to move ahead, taking commerce to new heights, or encouraging people to explore the world, our colleagues are constantly redefining what's possible.",
+      "qualifications": [
+        "JavaScript",
+        "TypeScript",
+        "transpilers (Babel)",
+        "CSS/Sass/Less",
+        "NodeJS/npm"
+      ],
+      "reviews": [
+        "Job security in tough times.",
+        "Dream company for developers.",
+        "Great place to work.",
+        "Lots of different projects."
+      ],
+      "title": "Jr. Back-End Developer",
+      "badgeLetters": "VS",
+      "company": "Veritech Solutions",
+      "duration": "Full-Time",
+      "salary": "$92,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 3,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalveritechsolutionswebsite.com"
+    },
+    {
+      "id": 6.5656655454343586e+19,
+      "description": "As a front-end developer, you will be responsible for designing, developing and deploying full-stack solutions in support of Purple Streets' core business.",
+      "qualifications": [
+        "HTML5",
+        "CSS",
+        "React",
+        "GraphQL",
+        "Node/Express",
+        "Optional: Angular",
+        "Optional: Vue"
+      ],
+      "reviews": [
+        "Great for starters & experienced.",
+        "Ability to learn and grow.",
+        "Best for acquiring experience.",
+        "You can pick different projects."
+      ],
+      "title": "Senior Frontend Developer",
+      "badgeLetters": "PS",
+      "company": "Purple Street",
+      "duration": "Full-Time",
+      "salary": "$85,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 1,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalpurplestreetwebsite.com"
+    },
+    {
+      "id": 76876887834563460,
+      "description": "We are looking for someone who is passionate about technology and has experience in developing highly available and highly secured applications.",
+      "qualifications": [
+        "JS (ES6+)",
+        "babel",
+        "React",
+        "Karma/Jasmine/Mocha",
+        "MongoDB/NoSQL"
+      ],
+      "reviews": [
+        "Productive and good.",
+        "Good opportunities for learning.",
+        "Decent work/life balance.",
+        "Excellent minds work here."
+      ],
+      "title": "Full-Stack Developer",
+      "badgeLetters": "VI",
+      "company": "Venca Inc.",
+      "duration": "Full-Time",
+      "salary": "$90,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 2,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalvencaincwebsite.com"
+    },
+    {
+      "id": 5.56543654665569e+18,
+      "description": "Web Developer will have back- and front-end web development skills and join the broader digital development team in developing and maintaining the central web presence.",
+      "qualifications": [
+        "CSS",
+        "React",
+        "JavaScript",
+        "HTML",
+        "TypeScript",
+        "Ruby",
+        "MySQL"
+      ],
+      "reviews": [
+        "Good place to grow career.",
+        "Very fair and opportunities abound.",
+        "Not bad at all, recommended.",
+        "The coworkers are very nice."
+      ],
+      "title": "Remote Full-Stack Developer",
+      "badgeLetters": "GK",
+      "company": "Grey Knight",
+      "duration": "Full-Time",
+      "salary": "$150,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 1,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalgreyknightwebsite.com"
+    },
+    {
+      "id": 5.565534645643622e+18,
+      "description": "Responsible for system development, analysis, design, certification, testing, implementation and documentation of new and existing software applications.",
+      "qualifications": [
+        "React",
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "Next.js",
+        "Optional: Angular",
+        "Optional: Vue"
+      ],
+      "reviews": [
+        "Good entry, growth could be better.",
+        "Great customers and coworkers.",
+        "Lots of trips available.",
+        "Overall, great place to work."
+      ],
+      "title": "Remote Front-End Developer",
+      "badgeLetters": "AE",
+      "company": "As Exus",
+      "duration": "Full-Time",
+      "salary": "$90,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 3,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalasexuswebsite.com"
+    },
+    {
+      "id": 967898776967865,
+      "description": "We not only assist our key clients with innovative projects, but we also assist them in finding truly talented engineers. We have an opening with our internal team for a Developer.",
+      "qualifications": [
+        "JavaScript",
+        "CSS",
+        "PHP",
+        "React",
+        "HTML",
+        "Git & GitHub",
+        "JSON"
+      ],
+      "reviews": [
+        "Productive and positive environment.",
+        "Lots of room for learning.",
+        "Good working culture.",
+        "Good training possibilities."
+      ],
+      "title": "Front End Developer",
+      "badgeLetters": "PS",
+      "company": "Paytron Systems",
+      "duration": "Full-Time",
+      "salary": "$88,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 2,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalpaytronsystemswebsite.com"
+    },
+    {
+      "id": 5424355454545533,
+      "description": "Join our tight-knit quickly growing team to help us design, develop, and bring our core product to market. This is an exciting opportunity ",
+      "qualifications": [
+        "React",
+        "Redux",
+        "HTML",
+        "Node.js",
+        "Responsiveness",
+        "Docker",
+        "Git"
+      ],
+      "reviews": [
+        "Best place I've ever worked. I learned a lot.",
+        "Professional and fun people to work with.",
+        "Very good overall I think.",
+        "Perfect for entry in software."
+      ],
+      "title": "Software Engineer",
+      "badgeLetters": "OL",
+      "company": "Octu Labs",
+      "duration": "Full-Time",
+      "salary": "$90,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 1,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionaloctulabswebsite.com"
+    },
+    {
+      "id": 21143532463576656,
+      "description": "In our Software Engineering Group we look first and foremost for people who are passionate around solving business problems through innovation & engineering practices.",
+      "qualifications": [
+        "JavaScript",
+        "CSS",
+        "ReactJS",
+        "Python",
+        "NodeJS",
+        "Responsive web design",
+        "PostgreSQL"
+      ],
+      "reviews": [
+        "Hit or miss depending on client.",
+        "Very organized and yet flexible.",
+        "Good communication, good culture.",
+        "Flexible and understanding."
+      ],
+      "title": "Full-Stack Web Dev",
+      "badgeLetters": "OT",
+      "company": "Outside Tech",
+      "duration": "Full-Time",
+      "salary": "$80,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 2,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionaloutsidetechwebsite.com"
+    },
+    {
+      "id": 7.676765467456746e+19,
+      "description": "Client provides commercial and residential real estate applications. Our most important need is for a mid-level full stack developer, although they would take a resource who primarily has front end development skills.",
+      "qualifications": [
+        "React",
+        "JavaScript",
+        "Bootstrap",
+        "HTML5",
+        "CSS",
+        "C#",
+        "MS SQL SERVER"
+      ],
+      "reviews": [
+        "Excellent team.",
+        "Good if you're eager to learn.",
+        "Great workplace, amazing managers.",
+        "Good security and compensation."
+      ],
+      "title": "Full Stack Remote",
+      "badgeLetters": "UH",
+      "company": "UAB Health",
+      "duration": "Full-Time",
+      "salary": "$85,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 3,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionaluabhealthwebsite.com"
+    },
+    {
+      "id": 64565511231243784,
+      "description": "You will own and evolve software that connects our Associates with Customers world-wide, ensuring we deliver the highest quality and reliable contact experience for world-class Customer Service.",
+      "qualifications": [
+        "HTML",
+        "CSS",
+        "JS",
+        "Azure Cloud",
+        "ASP.NET",
+        "MongoDB/NoSQL",
+        "Optional: C#"
+      ],
+      "reviews": [
+        "Hard work but interesting projects.",
+        "It's a good company.",
+        "Great introductory work for dev.",
+        "I liked the training."
+      ],
+      "title": "Jr. Back-End Developer",
+      "badgeLetters": "OH",
+      "company": "O-Haul",
+      "duration": "Full-Time",
+      "salary": "$90,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 4,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalohaulwebsite.com"
+    },
+    {
+      "id": 545555623245,
+      "description": "You're a mid-to-senior-level full-stack developer, maybe even working in the trenches for an ad agency or a software shop. You're (probably!) not a designer.",
+      "qualifications": [
+        "JavaScript/TypeScript",
+        "C# and Java",
+        "AWS",
+        "MongoDB",
+        "Kafka",
+        "NodeJS",
+        "PostgreSQL"
+      ],
+      "reviews": [
+        "Best working experience I've had.",
+        "Chill place to work at.",
+        "Makes up for pay with training.",
+        "I highly recommend this company."
+      ],
+      "title": "Frontend Developer",
+      "badgeLetters": "SO",
+      "company": "StudyOpen",
+      "duration": "Full-Time",
+      "salary": "$85,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 1,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalstudyopenwebsite.com"
+    },
+    {
+      "id": 5436456788787875,
+      "description": "There are not many times in your career when you get the opportunity to change a multi-billion dollar franchise, work with scary smart people and build out your resume so that it is the envy of your friends.",
+      "qualifications": [
+        "React",
+        "TypeScript",
+        "REST APIs",
+        "MySQL/MariaDB",
+        "Python",
+        "Docker"
+      ],
+      "reviews": [
+        "This is an awesome place to work.",
+        "Interesting work with decent pay.",
+        "Work environment is perfect.",
+        "Low stress and efficient place."
+      ],
+      "title": "Back-End Developer",
+      "badgeLetters": "S",
+      "company": "Scalers",
+      "duration": "Full-Time",
+      "salary": "$90,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 3,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalscalerswebsite.com"
+    },
+    {
+      "id": 5565565652345245,
+      "description": "Developers are responsible for developing and designing front end web architecture, ensuring the responsiveness of applications, and working alongside graphic designers for web design features, among other duties.",
+      "qualifications": [
+        "Node.js",
+        "Express",
+        "Next.js",
+        "Gatsby",
+        "HTML5",
+        "CSS3",
+        "React"
+      ],
+      "reviews": [
+        "Only job I liked going to.",
+        "Great place to learn.",
+        "Best place to work at.",
+        "Training was good and rest also."
+      ],
+      "title": "JS Developer",
+      "badgeLetters": "VN",
+      "company": "Verso Networks",
+      "duration": "Full-Time",
+      "salary": "$80,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 2,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalversonetworkswebsite.com"
+    },
+    {
+      "id": 3.2444532452345446e+18,
+      "description": "As a Full Stack Software Engineer, your primary responsibilities will be to write clean, concise, modular code in an agile environment, mentor developers and provide code reviews.",
+      "qualifications": [
+        "HTML5",
+        "CSS3",
+        "Angular",
+        "React",
+        "Vue",
+        "Agile",
+        "Server side languages"
+      ],
+      "reviews": [
+        "Good communication to employees.",
+        "A bit old-fashioned, but I liked it.",
+        "Good company overall to work for.",
+        "Very nice role and salary."
+      ],
+      "title": "Software Engineer",
+      "badgeLetters": "WT",
+      "company": "Warner Table",
+      "duration": "Full-Time",
+      "salary": "$110,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 3,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalwarnertablewebsite.com"
+    },
+    {
+      "id": 6.653321413124214e+19,
+      "description": "We include powerful features such as document scanning, email and text communication, as well as posts to Zillow, Trulia and other popular apartment listing sites.",
+      "qualifications": [
+        "HTML/CSS",
+        "JavaScript",
+        "XML",
+        "jQuery",
+        "Java/Python",
+        "React/Node.js",
+        "MySQL/MongoDB"
+      ],
+      "reviews": [
+        "They really try to keep culture intact.",
+        "Working remotely was great.",
+        "Customer base was interesting.",
+        "Good entry-level positions."
+      ],
+      "title": "JS Full-Stack Dev.",
+      "badgeLetters": "CD",
+      "company": "Cadeen Design",
+      "duration": "Full-Time",
+      "salary": "$98,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 4,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalcadeendesignwebsite.com"
+    },
+    {
+      "id": 989069067867654800,
+      "description": "We're seeking an individual who is already aware of the industry's best practices and familiar with agile web development methodologies.",
+      "qualifications": [
+        ".NET",
+        "HTML",
+        "SQL",
+        "JavaScript",
+        "Responsive web design"
+      ],
+      "reviews": [
+        "Committed and fair people.",
+        "I liked the project managers.",
+        "Lots of career growth.",
+        "Fulfilling work."
+      ],
+      "title": "Entry-Level Developer",
+      "badgeLetters": "IN",
+      "company": "Intune Networks",
+      "duration": "Full-Time",
+      "salary": "$90,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 1,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalintunenetworkswebsite.com"
+    },
+    {
+      "id": 4.564562234512312e+20,
+      "description": "Developer is a full stack web-application generalist who also works in the native iOS and Android applications. The candidaysAgo writes and maintains high-quality code that empowers customers.",
+      "qualifications": [
+        "HTML/CSS/JS",
+        ".Net Core",
+        "C#",
+        "jQuery",
+        "Responsive web design",
+        "React/Angular/Vue"
+      ],
+      "reviews": [
+        "I loved working remotely.",
+        "Employee friendly.",
+        "Decent company to start career.",
+        "The people are great!"
+      ],
+      "title": "Full-Stack Developer",
+      "badgeLetters": "MA",
+      "company": "Margot Agency",
+      "duration": "Full-Time",
+      "salary": "$115,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 3,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalmargotagencywebsite.com"
+    },
+    {
+      "id": 8.658658657832452e+19,
+      "description": "This exciting growth opportunity shall act as a Full-stack Engineer within an existing development team focused on cloud security initiatives and in-house application design.",
+      "qualifications": [
+        "NodeJS",
+        "Apollo",
+        "GraphQL",
+        "MongoDB",
+        "GCP",
+        "Optional: Docker",
+        "Optional: Kubernetes"
+      ],
+      "reviews": [
+        "Productive & FUN workplace.",
+        "Always learning is possible.",
+        "Work is remote yet great team culture.",
+        "Excellent place to work."
+      ],
+      "title": "Node Developer",
+      "badgeLetters": "IT",
+      "company": "Ivee Tech",
+      "duration": "Full-Time",
+      "salary": "$90,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 2,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionaliveetechwebsite.com"
+    },
+    {
+      "id": 6.546436634563464e+18,
+      "description": "Our firm is rooted in entrepreneurialism and committed to excellence - for our employees, our clients, and our communities. You'll be empowered to hone your skills and develop your interests.",
+      "qualifications": [
+        "React",
+        "Node",
+        "Express",
+        "Mongo",
+        "Responsive web design",
+        "CSS3"
+      ],
+      "reviews": [
+        "Highly recommended if you want remote.",
+        "A bit intense but good compensation.",
+        "Company is growing fast.",
+        "I had a good learning curve here."
+      ],
+      "title": "Full-Stack Developer",
+      "badgeLetters": "ZR",
+      "company": "Zyme Research",
+      "duration": "Full-Time",
+      "salary": "$90,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 3,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalzymeresearchwebsite.com"
+    },
+    {
+      "id": 23532411423675764,
+      "description": "This position will provide the developer with a fair amount of independence. The developer's experience will inform design decisions made in coordination with stakeholders.",
+      "qualifications": [
+        "Python",
+        "React",
+        "AWS",
+        "NoSQL/MySQL",
+        "Responsiveness",
+        "Node JS"
+      ],
+      "reviews": [
+        "Productive work environment.",
+        "Remarkable people work here.",
+        "I will miss this company.",
+        "Opportunity to grow in your technology."
+      ],
+      "title": "Full-Stack Engineer",
+      "badgeLetters": "H9",
+      "company": "Hire99",
+      "duration": "Full-Time",
+      "salary": "$80,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 2,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalhire99website.com"
+    },
+    {
+      "id": 111436589999857660,
+      "description": "Are you passionate about delighting customers with the software you write? Do you enjoy solving complex problems with innovative and well-crafted software?",
+      "qualifications": [
+        "CSS/CSS-in-JS",
+        "RESTful HTTP APIs",
+        "webpack",
+        "GraphQL",
+        "AWS",
+        "Optional: Terraform"
+      ],
+      "reviews": [
+        "I would recommend working here.",
+        "Customer oriented with interesting projects.",
+        "The best work culture.",
+        "Collaborative team culture."
+      ],
+      "title": "Software Developer",
+      "badgeLetters": "SN",
+      "company": "Schneider Network",
+      "duration": "Full-Time",
+      "salary": "$75,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 4,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalschneidernetworkwebsite.com"
+    },
+    {
+      "id": 6.53656455525325e+20,
+      "description": "Are you an experienced, passionate pioneer in technology - a solutions builder, a roll-up-your-sleeves technologist who wants a daily collaborative environment, think-tank feel?",
+      "qualifications": [
+        "NodeJS",
+        "ReactJS",
+        "AWS",
+        "SEO",
+        "Optional: MongoDB"
+      ],
+      "reviews": [
+        "Challening work and decent hours.",
+        "Productive and remote, perfect.",
+        "Remote possible but also relocation.",
+        "Reliable and respectful."
+      ],
+      "title": "Full Stack Developer",
+      "badgeLetters": "PF",
+      "company": "Principal Finance",
+      "duration": "Full-Time",
+      "salary": "$95,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 2,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalprincipalfinancewebsite.com"
+    },
+    {
+      "id": 588798657345634700,
+      "description": "This position will be working on multiple custom applications and deploying to production multiple times in a given day depending on the current project cycle.",
+      "qualifications": [
+        "Node.js",
+        "JavaScript",
+        "Typescript",
+        "AWS Lambda",
+        "MongoDB/DynamoDB",
+        "AWS",
+        "Bonus: GraphQL"
+      ],
+      "reviews": [
+        "Good, nothing negative to say.",
+        "Above par for sure.",
+        "Fantastic teams and projects.",
+        "Professional company to work for."
+      ],
+      "title": "Full-Stack Web Developer",
+      "badgeLetters": "PM",
+      "company": "Palm Media",
+      "duration": "Full-Time",
+      "salary": "$150,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 1,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalpalmmediawebsite.com"
+    },
+    {
+      "id": 4564566555,
+      "description": "Work with talented team members with diverse skillsets developing solutions in new technology stacks and integrating with new and existing software applications.",
+      "qualifications": [
+        "UX/UI experience",
+        "HTML/CSS",
+        "JavaScript",
+        "Node.js/Python",
+        "Bootstrap/Tailwind"
+      ],
+      "reviews": [
+        "Great for developers for sure.",
+        "I had a wonderful time.",
+        "Remote was possible from day 1",
+        "I would definitely recommend this."
+      ],
+      "title": "Front-End Developer",
+      "badgeLetters": "OD",
+      "company": "Out Debt",
+      "duration": "Full-Time",
+      "salary": "$95,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 3,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionaloutdebtwebsite.com"
+    },
+    {
+      "id": 134531333300996980,
+      "description": "Execute and satisfy requirements for globally known brands that depend on these applications to efficiently and accurately exchange their vital business documents.",
+      "qualifications": [
+        "JavaScript",
+        "Typescript",
+        "React",
+        "Responsive web design",
+        "GraphQL"
+      ],
+      "reviews": [
+        "I have nothing to complain.",
+        "Company has great vision.",
+        "Benefits and remote are great.",
+        "They leave you alone after work."
+      ],
+      "title": "JS Developer (Front-End)",
+      "badgeLetters": "OT",
+      "company": "Origami Tech",
+      "duration": "Full-Time",
+      "salary": "$80,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 4,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalorigamitechwebsite.com"
+    },
+    {
+      "id": 565556437548678300,
+      "description": "We are seeking talented & passionate web developers to help build new cloud-based services to accompany our flagship product. You will bring curiosity, craft, and a love of helping customers do their best work.",
+      "qualifications": [
+        "HTML/CSS/JS",
+        "React/React Native",
+        "Node/Rails",
+        "Apollo client & GraphQL",  
+        "Bonus: UX/UI"
+      ],
+      "reviews": [
+        "Pay & Benefits are awesome.",
+        "Comfortable to work here for sure.",
+        "Nice people that will support you.",
+        "All good. Recommended."
+      ],
+      "title": "Remote Full Stack Developer",
+      "badgeLetters": "LS",
+      "company": "Lockshelf System",
+      "duration": "Full-Time",
+      "salary": "$80,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 3,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionallockshelfsystemwebsite.com"
+    },
+    {
+      "id": 2.435543345653609e+20,
+      "description": "The ideal candidaysAgo should be an excellent communicator who is adept with website content maintenance tasks, including administrative and design under the guidance of the assistant director.",
+      "qualifications": [
+        "HTML",
+        "CSS",
+        "Sass",
+        "Python/Django",
+        "Git/GitHub",
+        "Bonus: eCommerce exp."
+      ],
+      "reviews": [
+        "Great remote-first company.",
+        "Enjoyed my tenure here.",
+        "Also good for advancing career.",
+        "Great training process."
+      ],
+      "title": "Developer (eCommerce)",
+      "badgeLetters": "IC",
+      "company": "Intersystem Center",
+      "duration": "Full-Time",
+      "salary": "$100,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 1,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalintersystemcenterwebsite.com"
+    },
+    {
+      "id": 9.889989867856755e+18,
+      "description": "Our developers are involved in all phases of the software development life cycle working both independently and in teams. They are expected to design, develop and maintain software to meet provided specifications.",
+      "qualifications": [
+        "React",
+        "Ruby on Rails",
+        "Go",
+        "Node.js",
+        "MongoDB/NoSQL",
+        "Responsive web design"
+      ],
+      "reviews": [
+        "Good for exploring technologies.",
+        "Working remotely is no problem.",
+        "75% of the team worked remotely.",
+        "Interesting tech used here."
+      ],
+      "title": "Full Stack Developer",
+      "badgeLetters": "SP",
+      "company": "Skill Place",
+      "duration": "Full-Time",
+      "salary": "$90,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 5,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalskillplacewebsite.com"
+    },
+    {
+      "id": 4.5234523452342354e+18,
+      "description": "As a Full Stack Developer you will be responsible for the development, maintenance, and interoperability of all service supporting operations, both on the back-end and the front-end.",
+      "qualifications": [
+        "NodeJS",
+        "Apollo",
+        "Redis",
+        "MongoDB",
+        "ElasticSearch",
+        "VueJS",
+        "AWS"
+      ],
+      "reviews": [
+        "Fast growth rate as a developer.",
+        "Good place to learn new things.",
+        "Don't judge a book by its cover.",
+        "Good compensation and benefits."
+      ],
+      "title": "Full-Stack Web Developer",
+      "badgeLetters": "CA",
+      "company": "Codigo Amigo",
+      "duration": "Full-Time",
+      "salary": "$80,000+",
+      "location": "Global",
+      "relevanceScore": 99,
+      "daysAgo": 3,
+      "coverImgURL": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1272&h=348&q=100",
+      "companyURL": "https://fictionalcodigoamigowebsite.com"
+    }
+  ]
+}
